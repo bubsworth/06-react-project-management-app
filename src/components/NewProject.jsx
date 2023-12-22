@@ -1,3 +1,4 @@
+import Button from "./Button.jsx";
 import Input from "./Input.jsx";
 
 export default function NewProject() {
@@ -10,9 +11,7 @@ export default function NewProject() {
           </button>
         </li>
         <li className="flex justify-between my-4">
-          <button className="px-6 py-2 rounded-md bg-stone-800 text-stone-50 hover:bg-stone-950">
-            Save
-          </button>
+          <Button />
         </li>
       </menu>
       <div>
