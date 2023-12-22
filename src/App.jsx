@@ -1,11 +1,12 @@
-import { useEffect, useRef } from "react";
-import SideBar from "./components/SideBar";
+import ProjectsSideBar from "./components/ProjectsSideBar";
+import NewProject from "./components/NewProject";
 
 export default function App() {
   return (
     <>
       <main className="h-screen my-8 flex gap-8">
-        <SideBar />
+        <ProjectsSideBar />
+        <NewProject />
       </main>
     </>
   );
