@@ -10,8 +10,8 @@ export default function ProjectsSideBar({ onStartAddProject }) {
         <Button onClick={onStartAddProject}>+ Add Project</Button>
       </div>
       <ul className="mt-8">
-        <li className="flex justify-between my-4">Learning React</li>
-        <li className="flex justify-between my-4">Mastering React</li>
+        <li className="flex justify-between my-4">x</li>
+        <li className="flex justify-between my-4">y</li>
       </ul>
     </aside>
   );
